@@ -16,7 +16,6 @@ function ComponentA() {
 function ComponentB() {
   return (
     <>
-      <h1>Component 2</h1>
       <ComponentC />
     </>
   );
@@ -25,7 +24,6 @@ function ComponentB() {
 function ComponentC() {
   return (
     <>
-      <h1>Component 3</h1>
       <ComponentD />
     </>
   );
@@ -34,7 +32,6 @@ function ComponentC() {
 function ComponentD() {
   return (
     <>
-      <h1>Component 4</h1>
       <ComponentE />
     </>
   );
